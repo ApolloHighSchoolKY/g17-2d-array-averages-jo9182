@@ -13,7 +13,10 @@ public class ArrayAverages{
   }
 
   public void columnAverages(){
-
+    //Column major order
+    //  Take each column and go through all of the rows
+    //  Top down and left to right
+    //  No row on the outside, column on the outside
   }
 
   public void arrayAverage(){
@@ -25,5 +28,7 @@ public class ArrayAverages{
     {
       System.out.println(Arrays.toString(ray[row]));
     }
+
+    return ""; 
   }
 }
